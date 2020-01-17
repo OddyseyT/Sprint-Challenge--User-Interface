@@ -78,7 +78,7 @@ p {
 }
 
 header nav {
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,6 +94,10 @@ header nav a {
 nav a:hover {
 	background-color: darkgrey;
 	color: white;
+}
+
+header nav a.active {
+    color: blue;
 }
 
 .prettypic {
@@ -260,6 +264,12 @@ nav a:hover {
     padding-right: 0;
 }
 
+.container-about-page .about-section {
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 2px dotted grey;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -277,4 +287,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+footer nav a.active {
+    color: blue;
 }
