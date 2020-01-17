@@ -62,8 +62,19 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 p {
     line-height: 1.4;
+}
+
+.topnavbar {
+    display: flex;
+	flex-direction: row;	
+	align-items: center;
+	justify-content: space-around;
 }
 
 header nav {
@@ -80,6 +91,16 @@ header nav a {
     color: black;
 }
 
+nav a:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
+.prettypic {
+    display:flex;
+	padding: 3%;
+	justify-content: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
