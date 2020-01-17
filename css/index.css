@@ -267,7 +267,26 @@ header nav a.active {
 .container-about-page .about-section {
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 12px;
     border-bottom: 2px dotted grey;
+}
+
+button {
+	display: flex;
+	text-align:center;
+	width: 105px;
+	margin-top: 10px;
+	font-size: 16px;
+	background-color: white;
+}
+
+button:hover {
+	background-color: lightgrey;
+}
+
+.container-about-page .workingtogether {
+    width: 800px;
+    margin: 0 auto;
 }
 
 footer {
