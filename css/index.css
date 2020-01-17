@@ -287,6 +287,22 @@ button:hover {
 .container-about-page .workingtogether {
     width: 800px;
     margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-about-page .display-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container-about-page .display-boxes .about-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 3px dotted grey;
 }
 
 footer {
